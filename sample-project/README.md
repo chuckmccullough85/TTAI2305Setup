@@ -35,20 +35,13 @@ Execute each test to verify your setup:
 
 #### Test Node.js Setup
 ```bash
+cd sample-project
 npm start
 ```
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 You should see a JSON response with setup information.
 
-#### Test Git
-```bash
-git status
-git add .
-git commit -m "Setup verification complete"
-```
-
-## 📋 Expected Results
 
 ### Node.js Test Results
 When you visit `http://localhost:3000`, you should see:
