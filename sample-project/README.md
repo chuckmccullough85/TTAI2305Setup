@@ -20,12 +20,12 @@ This project validates that all required tools are installed and working correct
 git clone <repository-url>
 cd ai-course-setup-test
 
-# Or create the project manually following the setup guide
 ```
 
 ### 2. Install Dependencies
 
 ```bash
+cd sample-project
 npm install
 ```
 
