@@ -70,6 +70,20 @@ When you visit `http://localhost:3000`, you should see:
 }
 ```
 
+## Optional: Dotnet Interactive
+Some solutions include interactive notebooks using .NET Interactive. To set this up, follow these steps:
+
+1. Install Visual Studio Code: Download and install the latest version of VS Code from the official website.
+2. Install .NET SDK: Ensure you have the .NET SDK installed on your machine. You can download it from the official [.NET website](https://dotnet.microsoft.com/download).
+3. Install the .NET Interactive Notebooks extension: In VS Code, go to the Extensions view (Ctrl+Shift+X) and search for ".NET Interactive Notebooks". Install the extension.   
+4. Install Jupyter: You need to have Jupyter installed. You can install it via pip if you have Python installed: `pip install jupyter`.
+5. Install .NET Interactive: You can install .NET Interactive by running the following command in your terminal: `dotnet tool install -g Microsoft.dotnet-interactive`.
+6. Verify installation: Open a terminal and run `dotnet interactive --version` to ensure that .NET Interactive is installed correctly.
+7. Restart VS Code: After installation, restart VS Code to ensure all extensions and tools are properly loaded.
+8. Create or open a .ipynb file: You can now create a new Jupyter notebook file with a .ipynb extension or open an existing one to start using .NET Interactive notebooks in VS Code.
+9. Select the kernel: In the notebook, select the .NET Interactive kernel from the kernel picker to start writing and executing .NET code.  
+10. Start coding: You can now start writing .NET code in your notebook cells and execute them interactively.
+
 ## 🔧 Troubleshooting
 
 ### Common Issues
